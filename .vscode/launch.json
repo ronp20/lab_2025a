@@ -1,0 +1,28 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+
+        {
+            "name": "Debug letters",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/Mmn_11/letters/letters",  // Path to the compiled executable
+            "args": ["<","${workspaceFolder}/Mmn_11/letters/Test1"],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "gdb",
+            "setupCommands": [
+                {
+                    "description": "Enable pretty-printing for gdb",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                }
+            ],
+            "miDebuggerPath": "/usr/bin/gdb",  // Adjust if GDB is located elsewhere
+            "miDebuggerArgs": "",
+            "trace": true // Enable tracing for additional output
+        }
+    ]
+}
