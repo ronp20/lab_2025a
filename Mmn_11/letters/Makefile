@@ -1,6 +1,6 @@
 # Define the compiler and compiler flags
 CC = gcc
-CFLAGS = -std=c89 -Wall -Werror -ansi -pedantic -g  # Added -g for debugging
+CFLAGS = -std=c89 -Wall -Werror -ansi -pedantic -g -D_POSIX_C_SOURCE=1
 
 # Define the target executable
 TARGET = letters

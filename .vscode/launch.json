@@ -7,7 +7,7 @@
             "type": "cppdbg",
             "request": "launch",
             "program": "${workspaceFolder}/Mmn_11/letters/letters",  // Path to the compiled executable
-            "args": ["<","${workspaceFolder}/Mmn_11/letters/Test1"],
+            "args": ["<","${workspaceFolder}/Mmn_11/letters/Test2"],
             "stopAtEntry": false,
             "cwd": "${workspaceFolder}",
             "environment": [],
