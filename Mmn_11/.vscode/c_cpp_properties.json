@@ -4,7 +4,8 @@
             "name": "Linux",
             "includePath": [
                 "${workspaceFolder}/**",
-                "${workspaceFolder}/letters/include"
+                "${workspaceFolder}/letters/include",
+                "${workspaceFolder}/xy_bits/include"
             ],
             "defines": [],
             "compilerPath": "/usr/bin/clang",
