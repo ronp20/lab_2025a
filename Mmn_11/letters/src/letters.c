@@ -51,7 +51,7 @@ int main(int argc, char *argv[])
                 putchar(c);
             }
 
-            if (c != '.' && c != '\n')
+            if (c != '.' && c != '\n' && c != ' ' && c != '\t')
             {
                 new_sentence = FALSE;  /* Mark the start of a new sentence */
             }
