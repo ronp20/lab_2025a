@@ -1,0 +1,9 @@
+{
+    "psi-header.templates": [
+        {
+            "language": "*",
+            "template": [
+                "Created By Ron Potashnik <<year>>."
+            ]
+        }
+}
