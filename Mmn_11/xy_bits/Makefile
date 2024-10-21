@@ -37,3 +37,11 @@ $(SRC_DIR)/my_bitwise.o: $(SRC_DIR)/my_bitwise.c
 clean:
 	@rm -f $(TARGET)
 	@echo "Cleaned up!"
+
+# Run tests
+run-tests: $(TARGET)
+	@echo "Running tests..."
+	@$(TARGET) < tests/input/test1 > tests/output/test1
+	@echo "Test 1 completed."
+	@$(TARGET) < tests/input/test2 > tests/output/test2
+	@echo "Test 2 completed."
