@@ -1,0 +1,144 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Letters: Debug Test 1",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/letters/exe/letters",  // Path to the compiled executable
+            "args": ["<","${workspaceFolder}/letters/tests/input/test1"],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "gdb",
+            "setupCommands": [
+                {
+                    "description": "Enable pretty-printing for gdb",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                }
+            ],
+            "preLaunchTask": "Letters: Build with make", // Run this task before debugging
+            "miDebuggerPath": "/usr/bin/gdb",  // Adjust if GDB is located elsewhere
+            "miDebuggerArgs": "",
+            "trace": true // Enable tracing for additional output
+        },
+        {
+            "name": "Letters: Run letters executable Test 1",  // Name of the configuration
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/letters/exe/letters",  // Path to the executable
+            "args": ["<","${workspaceFolder}/letters/tests/input/test1"],  // You can add command-line arguments here
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}",  // Current working directory
+            "environment": [],
+            "externalConsole": false,  // Set to true if you want to run in an external console
+            "MIMode": "gdb",
+            "setupCommands": [
+                {
+                    "description": "Enable pretty-printing for gdb",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                }
+            ],
+            "preLaunchTask": "Letters: Build with make",  // Optional: Run build task before launching
+            "miDebuggerPath": "/usr/bin/gdb",  // Path to gdb (modify for Windows/other systems)
+            "logging": {
+                "engineLogging": false
+            }
+        },
+        {
+            "name": "Letters: Debug Test 4",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/letters/exe/letters",  // Path to the compiled executable
+            "args": ["<","${workspaceFolder}/letters/tests/input/test4"],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "gdb",
+            "setupCommands": [
+                {
+                    "description": "Enable pretty-printing for gdb",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                }
+            ],
+            "preLaunchTask": "Letters: Build with make", // Run this task before debugging
+            "miDebuggerPath": "/usr/bin/gdb",  // Adjust if GDB is located elsewhere
+            "miDebuggerArgs": "",
+            "trace": true // Enable tracing for additional output
+        },
+        {
+            "name": "Letters: Debug Test 2",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/letters/exe/letters",  // Path to the compiled executable
+            "args": ["<","${workspaceFolder}/letters/test/test2"],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "gdb",
+            "setupCommands": [
+                {
+                    "description": "Enable pretty-printing for gdb",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                }
+            ],
+            "preLaunchTask": "Letters: Build with make", // Run this task before debugging
+            "miDebuggerPath": "/usr/bin/gdb",  // Adjust if GDB is located elsewhere
+            "miDebuggerArgs": "",
+            "trace": true // Enable tracing for additional output
+        },
+        {
+            "name": "Letters: Debug Test 3",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/letters/exe/letters",  // Path to the compiled executable
+            "args": ["<","${workspaceFolder}/letters/tests/input/test3"],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "gdb",
+            "setupCommands": [
+                {
+                    "description": "Enable pretty-printing for gdb",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                }
+            ],
+            "preLaunchTask": "Letters: Build with make", // Run this task before debugging
+            "miDebuggerPath": "/usr/bin/gdb",  // Adjust if GDB is located elsewhere
+            "miDebuggerArgs": "",
+            "trace": true // Enable tracing for additional output
+        },
+        {
+            "name": "Letters: From Keybaord",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/letters/exe/letters",  // Path to the compiled executable
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "gdb",
+            "setupCommands": [
+                {
+                    "description": "Enable pretty-printing for gdb",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                }
+            ],
+            "preLaunchTask": "Letters: Build with make", // Run this task before debugging
+            "miDebuggerPath": "/usr/bin/gdb",  // Adjust if GDB is located elsewhere
+            "miDebuggerArgs": "",
+            "trace": true // Enable tracing for additional output
+        }
+    ]
+}

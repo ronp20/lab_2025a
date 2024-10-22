@@ -1,0 +1,9 @@
+Enter value for x (unsigned long): Enter value for y (unsigned long): 
+Initial values:
+x = 4294967295 (binary: 1111 1111 1111 1111 1111 1111 1111 1111 
+y = 76462890 (binary: 0000 0100 1000 1110 1011 1011 0010 1010 
+
+The 13th bit in x is already set (bit 12).
+x = 4294967295 (binary: 1111 1111 1111 1111 1111 1111 1111 1111 
+
+Is the 7th bit in y set (bit 6)? NO
