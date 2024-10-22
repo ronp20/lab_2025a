@@ -1,4 +1,4 @@
-name: CI for xy_bits Program
+name: CI for Lab_2025a
 
 on:
   pull_request:
@@ -26,29 +26,39 @@ jobs:
         run: |
           docker pull i386/ubuntu:16.04
 
-      # Step 3: Run build and tests inside the 32-bit Docker container
-      - name: Build and run tests in Docker
+      # Step 3: Build and test for xy_bits and letters in one Docker container
+      - name: Build and test both xy_bits and letters in Docker
         run: |
           docker run --rm -v ${{ github.workspace }}:/workspace -w /workspace i386/ubuntu:16.04 /bin/bash -c "
             apt-get update &&
             apt-get install -y gcc make diffutils git &&
+            
+            # Build and test xy_bits
             cd Mmn_11/xy_bits &&
-            # Build the xy_bits executable
+            make clean &&
             make all &&
-            # Run the tests and generate output
+            make run-tests &&
+            
+            # Build and test letters
+            cd ../letters &&
+            make clean &&
+            make all &&
             make run-tests
             "
 
-      # Step 4: Commit and push the test results and the new executable
+      # Step 4: Commit and push all test results and new executables in one commit
       - name: Commit and push output files
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           
+          git pull origin ${{ github.head_ref }}
+
           # Check if there are any changes to commit
           if git status --porcelain | grep -q '^'; then
             git add Mmn_11/xy_bits/exe/xy_bits Mmn_11/xy_bits/tests/output/test*
-            git commit -m "Updated xy_bits executable and test output files"
+            git add Mmn_11/letters/exe/* Mmn_11/letters/tests/output/test*
+            git commit -m "Updated executables and test output files for both xy_bits and letters"
             git push origin HEAD:${{ github.head_ref }}
           else
             echo "No changes to commit"
