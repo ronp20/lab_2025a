@@ -8,21 +8,24 @@
 #include <ctype.h>
 #include <unistd.h>  /* Required for isatty() */
 
-typedef int BOOL;  /* Define BOOL as an alias for int */
-#define TRUE 1
-#define FALSE 0
+/* Define a boolean type */
+typedef enum BOOL_E
+{
+    FALSE = 0,
+    TRUE = 1
+} BOOL_E;
 
 /*
     @brief Check if the input is coming from a terminal (no redirection)
     @return TRUE if the input is coming from a terminal, FALSE otherwise
 */
-static BOOL is_terminal_input();
+static BOOL_E is_terminal_input();
 
 int main(int argc, char *argv[])
 {
     char c; /* Variable to store the current character */
-    BOOL is_new_sentence = TRUE;  /* Track if we are at the start of a new sentence */
-    BOOL is_inside_quotes = FALSE; /* Track if we are inside quotes */
+    BOOL_E is_new_sentence = TRUE;  /* Track if we are at the start of a new sentence */
+    BOOL_E is_inside_quotes = FALSE; /* Track if we are inside quotes */
 
     /* Check if the input is coming from a terminal (no redirection) */
     if (is_terminal_input())
@@ -96,7 +99,7 @@ int main(int argc, char *argv[])
     return 0;
 }
 
-BOOL is_terminal_input()
+BOOL_E is_terminal_input()
 {
     return (isatty(fileno(stdin)) == 1) ? TRUE : FALSE;
 }

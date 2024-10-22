@@ -12,7 +12,7 @@ unsigned long set_bit(unsigned long num, unsigned long pos)
     return num | (1 << pos);
 }
 
-BOOL is_bit_set(unsigned long num, unsigned long pos)
+BOOL_E is_bit_set(unsigned long num, unsigned long pos)
 {
     return ((num & (1 << pos)) != 0) ? TRUE : FALSE;
 }

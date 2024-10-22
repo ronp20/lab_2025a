@@ -7,9 +7,12 @@
 
 #include <stdio.h>
 
-typedef int BOOL;  /* Define BOOL as an alias for int */
-#define TRUE 1
-#define FALSE 0
+/* Define a boolean type */
+typedef enum BOOL_E
+{
+    FALSE = 0,
+    TRUE = 1
+} BOOL_E;
 
 /*
     @brief  Set a bit at a specific position in a number.
@@ -25,7 +28,7 @@ unsigned long set_bit(unsigned long num, unsigned long pos);
     @param  pos  The position of the bit to check.
     @return  TRUE if the bit is set, otherwise FALSE.
 */
-BOOL is_bit_set(unsigned long num, unsigned long pos);
+BOOL_E is_bit_set(unsigned long num, unsigned long pos);
 
 /*
     @brief  Print a number in binary format.

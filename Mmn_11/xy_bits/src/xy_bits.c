@@ -9,8 +9,8 @@
 int main()
 {
     unsigned long x, y; /* Input values */
-    BOOL y_bit_6_status; /* Status of the 7th bit in y */
-    BOOL x_bit_12_status; /* Status of the 13th bit in x */
+    BOOL_E y_bit_6_status; /* Status of the 7th bit in y */
+    BOOL_E x_bit_12_status; /* Status of the 13th bit in x */
 
     /* Request input */
     printf("Enter value for x (unsigned long): ");
