@@ -1,6 +1,6 @@
 # Define the compiler and compiler flags
 CC = gcc
-CFLAGS = -std=c89 -Wall -Werror -ansi -pedantic -g
+CFLAGS = -Wall -Werror -ansi -pedantic -g
 
 # Define directories for include, source, and executable
 INCLUDE_DIR = include

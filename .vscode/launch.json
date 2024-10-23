@@ -5,8 +5,8 @@
             "name": "Letters: Debug Test 1",
             "type": "cppdbg",
             "request": "launch",
-            "program": "${workspaceFolder}/letters/exe/letters",  // Path to the compiled executable
-            "args": ["<","${workspaceFolder}/letters/tests/input/test1"],
+            "program": "${workspaceFolder}/Mmn_11/letters/exe/letters",  // Path to the compiled executable
+            "args": ["<","${workspaceFolder}/Mmn_11/letters/tests/input/test1"],
             "stopAtEntry": false,
             "cwd": "${workspaceFolder}",
             "environment": [],
@@ -28,8 +28,8 @@
             "name": "Letters: Run letters executable Test 1",  // Name of the configuration
             "type": "cppdbg",
             "request": "launch",
-            "program": "${workspaceFolder}/letters/exe/letters",  // Path to the executable
-            "args": ["<","${workspaceFolder}/letters/tests/input/test1"],  // You can add command-line arguments here
+            "program": "${workspaceFolder}/Mmn_11/letters/exe/letters",  // Path to the executable
+            "args": ["<","${workspaceFolder}/Mmn_11/letters/tests/input/test1"],  // You can add command-line arguments here
             "stopAtEntry": false,
             "cwd": "${workspaceFolder}",  // Current working directory
             "environment": [],
@@ -52,8 +52,8 @@
             "name": "Letters: Debug Test 4",
             "type": "cppdbg",
             "request": "launch",
-            "program": "${workspaceFolder}/letters/exe/letters",  // Path to the compiled executable
-            "args": ["<","${workspaceFolder}/letters/tests/input/test4"],
+            "program": "${workspaceFolder}/Mmn_11/letters/exe/letters",  // Path to the compiled executable
+            "args": ["<","${workspaceFolder}/Mmn_11/letters/tests/input/test4"],
             "stopAtEntry": false,
             "cwd": "${workspaceFolder}",
             "environment": [],
@@ -75,8 +75,8 @@
             "name": "Letters: Debug Test 2",
             "type": "cppdbg",
             "request": "launch",
-            "program": "${workspaceFolder}/letters/exe/letters",  // Path to the compiled executable
-            "args": ["<","${workspaceFolder}/letters/test/test2"],
+            "program": "${workspaceFolder}/Mmn_11/letters/exe/letters",  // Path to the compiled executable
+            "args": ["<","${workspaceFolder}/Mmn_11/letters/test/test2"],
             "stopAtEntry": false,
             "cwd": "${workspaceFolder}",
             "environment": [],
@@ -98,8 +98,8 @@
             "name": "Letters: Debug Test 3",
             "type": "cppdbg",
             "request": "launch",
-            "program": "${workspaceFolder}/letters/exe/letters",  // Path to the compiled executable
-            "args": ["<","${workspaceFolder}/letters/tests/input/test3"],
+            "program": "${workspaceFolder}/Mmn_11/letters/exe/letters",  // Path to the compiled executable
+            "args": ["<","${workspaceFolder}/Mmn_11/letters/tests/input/test3"],
             "stopAtEntry": false,
             "cwd": "${workspaceFolder}",
             "environment": [],
@@ -121,7 +121,7 @@
             "name": "Letters: From Keybaord",
             "type": "cppdbg",
             "request": "launch",
-            "program": "${workspaceFolder}/letters/exe/letters",  // Path to the compiled executable
+            "program": "${workspaceFolder}/Mmn_11/letters/exe/letters",  // Path to the compiled executable
             "args": [],
             "stopAtEntry": false,
             "cwd": "${workspaceFolder}",

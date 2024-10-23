@@ -1,6 +1,6 @@
 # Compiler and flags
 CC = gcc
-CFLAGS = -std=c89 -Wall -Werror -ansi -pedantic -g -D_POSIX_C_SOURCE=1
+CFLAGS = -Wall -Werror -ansi -pedantic -g -D_POSIX_C_SOURCE=1
 
 # Directories and files
 SRC = src/letters.c
