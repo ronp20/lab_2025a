@@ -1,0 +1,147 @@
+Please Enter the adjacency matrix (10 x 10):
+if u and v have a direct edge between them, enter 1, otherwise enter 0
+Please enter the value of A[0][0]:
+Please enter the value of A[0][1]:
+Please enter the value of A[0][2]:
+Please enter the value of A[0][3]:
+Please enter the value of A[0][4]:
+Please enter the value of A[0][5]:
+Please enter the value of A[0][6]:
+Please enter the value of A[0][7]:
+Please enter the value of A[0][8]:
+Please enter the value of A[0][9]:
+Please enter the value of A[1][0]:
+Please enter the value of A[1][1]:
+Please enter the value of A[1][2]:
+Please enter the value of A[1][3]:
+Please enter the value of A[1][4]:
+Please enter the value of A[1][5]:
+Please enter the value of A[1][6]:
+Please enter the value of A[1][7]:
+Please enter the value of A[1][8]:
+Please enter the value of A[1][9]:
+Please enter the value of A[2][0]:
+Please enter the value of A[2][1]:
+Please enter the value of A[2][2]:
+Please enter the value of A[2][3]:
+Please enter the value of A[2][4]:
+Please enter the value of A[2][5]:
+Please enter the value of A[2][6]:
+Please enter the value of A[2][7]:
+Please enter the value of A[2][8]:
+Please enter the value of A[2][9]:
+Please enter the value of A[3][0]:
+Please enter the value of A[3][1]:
+Please enter the value of A[3][2]:
+Please enter the value of A[3][3]:
+Please enter the value of A[3][4]:
+Please enter the value of A[3][5]:
+Please enter the value of A[3][6]:
+Please enter the value of A[3][7]:
+Please enter the value of A[3][8]:
+Please enter the value of A[3][9]:
+Please enter the value of A[4][0]:
+Please enter the value of A[4][1]:
+Please enter the value of A[4][2]:
+Please enter the value of A[4][3]:
+Please enter the value of A[4][4]:
+Please enter the value of A[4][5]:
+Please enter the value of A[4][6]:
+Please enter the value of A[4][7]:
+Please enter the value of A[4][8]:
+Please enter the value of A[4][9]:
+Please enter the value of A[5][0]:
+Please enter the value of A[5][1]:
+Please enter the value of A[5][2]:
+Please enter the value of A[5][3]:
+Please enter the value of A[5][4]:
+Please enter the value of A[5][5]:
+Please enter the value of A[5][6]:
+Please enter the value of A[5][7]:
+Please enter the value of A[5][8]:
+Please enter the value of A[5][9]:
+Please enter the value of A[6][0]:
+Please enter the value of A[6][1]:
+Please enter the value of A[6][2]:
+Please enter the value of A[6][3]:
+Please enter the value of A[6][4]:
+Please enter the value of A[6][5]:
+Please enter the value of A[6][6]:
+Please enter the value of A[6][7]:
+Please enter the value of A[6][8]:
+Please enter the value of A[6][9]:
+Please enter the value of A[7][0]:
+Please enter the value of A[7][1]:
+Please enter the value of A[7][2]:
+Please enter the value of A[7][3]:
+Please enter the value of A[7][4]:
+Please enter the value of A[7][5]:
+Please enter the value of A[7][6]:
+Please enter the value of A[7][7]:
+Please enter the value of A[7][8]:
+Please enter the value of A[7][9]:
+Please enter the value of A[8][0]:
+Please enter the value of A[8][1]:
+Please enter the value of A[8][2]:
+Please enter the value of A[8][3]:
+Please enter the value of A[8][4]:
+Please enter the value of A[8][5]:
+Please enter the value of A[8][6]:
+Please enter the value of A[8][7]:
+Please enter the value of A[8][8]:
+Please enter the value of A[8][9]:
+Please enter the value of A[9][0]:
+Please enter the value of A[9][1]:
+Please enter the value of A[9][2]:
+Please enter the value of A[9][3]:
+Please enter the value of A[9][4]:
+Please enter the value of A[9][5]:
+Please enter the value of A[9][6]:
+Please enter the value of A[9][7]:
+Please enter the value of A[9][8]:
+Please enter the value of A[9][9]:
+The adjacency matrix is:
+         0   1   2   3   4   5   6   7   8   9
+    --------------------------------------------------
+   0 |   0   1   0   0   0   0   0   0   0   0
+   1 |   0   0   0   0   1   0   0   0   0   0
+   2 |   0   0   1   0   0   0   0   0   0   0
+   3 |   0   0   0   0   0   0   0   1   0   0
+   4 |   0   0   0   0   0   1   0   0   0   0
+   5 |   1   0   0   0   0   0   0   0   0   0
+   6 |   0   0   0   0   0   0   0   0   1   0
+   7 |   0   0   0   0   0   0   0   0   0   1
+   8 |   0   0   0   0   0   0   0   0   0   0
+   9 |   0   0   0   0   0   0   0   0   0   0
+Please enter u and v to check if there is a path from u to v:
+Enter -1, -1 to exit
+There is a path from 0 to 1
+Please enter u and v to check if there is a path from u to v:
+Enter -1, -1 to exit
+There is a path from 1 to 4
+Please enter u and v to check if there is a path from u to v:
+Enter -1, -1 to exit
+There is no path from 2 to 3
+Please enter u and v to check if there is a path from u to v:
+Enter -1, -1 to exit
+There is a path from 3 to 7
+Please enter u and v to check if there is a path from u to v:
+Enter -1, -1 to exit
+There is a path from 4 to 5
+Please enter u and v to check if there is a path from u to v:
+Enter -1, -1 to exit
+There is a path from 5 to 0
+Please enter u and v to check if there is a path from u to v:
+Enter -1, -1 to exit
+There is a path from 6 to 8
+Please enter u and v to check if there is a path from u to v:
+Enter -1, -1 to exit
+There is a path from 7 to 9
+Please enter u and v to check if there is a path from u to v:
+Enter -1, -1 to exit
+There is no path from 0 to 2
+Please enter u and v to check if there is a path from u to v:
+Enter -1, -1 to exit
+There is no path from 8 to 0
+Please enter u and v to check if there is a path from u to v:
+Enter -1, -1 to exit

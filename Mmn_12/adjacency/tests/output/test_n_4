@@ -1,0 +1,39 @@
+Please Enter the adjacency matrix (4 x 4):
+if u and v have a direct edge between them, enter 1, otherwise enter 0
+Please enter the value of A[0][0]:
+Please enter the value of A[0][1]:
+Please enter the value of A[0][2]:
+Please enter the value of A[0][3]:
+Please enter the value of A[1][0]:
+Please enter the value of A[1][1]:
+Please enter the value of A[1][2]:
+Please enter the value of A[1][3]:
+Please enter the value of A[2][0]:
+Please enter the value of A[2][1]:
+Please enter the value of A[2][2]:
+Please enter the value of A[2][3]:
+Please enter the value of A[3][0]:
+Please enter the value of A[3][1]:
+Please enter the value of A[3][2]:
+Please enter the value of A[3][3]:
+The adjacency matrix is:
+         0   1   2   3
+    --------------------
+   0 |   0   1   0   0
+   1 |   0   0   1   0
+   2 |   0   0   0   1
+   3 |   0   0   0   0
+Please enter u and v to check if there is a path from u to v:
+Enter -1, -1 to exit
+There is a path from 0 to 1
+Please enter u and v to check if there is a path from u to v:
+Enter -1, -1 to exit
+There is a path from 1 to 2
+Please enter u and v to check if there is a path from u to v:
+Enter -1, -1 to exit
+There is a path from 1 to 3
+Please enter u and v to check if there is a path from u to v:
+Enter -1, -1 to exit
+There is no path from 3 to 0
+Please enter u and v to check if there is a path from u to v:
+Enter -1, -1 to exit

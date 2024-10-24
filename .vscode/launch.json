@@ -139,6 +139,29 @@
             "miDebuggerPath": "/usr/bin/gdb",  // Adjust if GDB is located elsewhere
             "miDebuggerArgs": "",
             "trace": true // Enable tracing for additional output
+        },
+        {
+            "name": "Adjacency: From Keybaord",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/Mmn_12/adjacency/exe/adjacency",  // Path to the compiled executable
+            "args": ["<","${workspaceFolder}/Mmn_12/adjacency/tests/input/test_n_10", ">", "${workspaceFolder}/Mmn_12/adjacency/tests/output/test_n_10"],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "gdb",
+            "setupCommands": [
+                {
+                    "description": "Enable pretty-printing for gdb",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                }
+            ],
+            "preLaunchTask": "Adjacency: Build with make", // Run this task before debugging
+            "miDebuggerPath": "/usr/bin/gdb",  // Adjust if GDB is located elsewhere
+            "miDebuggerArgs": "",
+            "trace": true // Enable tracing for additional output
         }
     ]
 }
